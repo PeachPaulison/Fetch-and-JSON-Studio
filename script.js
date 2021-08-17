@@ -20,8 +20,7 @@ window.addEventListener("load", function () {
                         </div>
                      </div>`
                 index++;
-
-            }
+            }   
             container.innerHTML = html;
         })
     })
