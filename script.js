@@ -16,9 +16,11 @@ window.addEventListener("load", function () {
                                         <li>Active ${json[index].active}</li>
                                         <li>Skills ${json[index].skills}</li>
                                     </ul>
-                                        <img class="avatar" src="${json[index].picture}">
-                        </div>
-                     </div>`
+                            </div>
+                          <img class="avatar" src="${json[index].picture}">
+                        </div>`
+                            
+                     
                 index++;
             }   
             container.innerHTML = html;
