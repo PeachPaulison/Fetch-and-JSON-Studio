@@ -11,7 +11,7 @@ window.addEventListener("load", function () {
                 html += `<div class="astronaut">
                             <div class="bio">
                                 <h3>${json[index].firstName} ${json[index].lastName}</h3>
-                                    <ul>
+                                    <ul>                            
                                         <li>Hours in Space: ${json[index].hoursInSpace}</li>
                                         <li>Active ${json[index].active}</li>
                                         <li>Skills ${json[index].skills}</li>
